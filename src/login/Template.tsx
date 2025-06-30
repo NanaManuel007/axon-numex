@@ -28,7 +28,8 @@ const Template = (props: CustomTemplateProps<"login.ftl">) => {
     // </div>
  
     <div className="relative flex items-center justify-center h-screen w-screen overflow-hidden">
-    <div className="absolute inset-0 bg-login-bg bg-repeat bg-[length:200px] opacity-40 -z-10"></div>
+    {/* <div className="absolute inset-0 bg-login-bg bg-repeat bg-[length:200px] opacity-40 -z-10"></div> */}
+     <div className="absolute inset-0 bg-gray-200 bg-[length:200px] opacity-40 -z-10"></div>
     {children}
   </div>
   )
