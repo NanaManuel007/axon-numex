@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.pnpm/
+.pnpm-debug.log
+
+# Build directories
+dist/
+dist_keycloak/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# IDE and editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+
+# Local development
+public/keycloakify-dev-resources/
+
+# Optional
+# Uncomment if you use these
+# .cache/
+# .parcel-cache/
+# .next/
+
+# Keycloak specificgit branch -M main
+keycloak-themes/
+keycloak-theme.properties
